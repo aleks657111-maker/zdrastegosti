@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Полное меню кафе «Здрасьте, гости» в Джанкое: завтраки, блины, супы, салаты, закуски, вторые блюда, пасты, пицца, гарниры и детское меню с ценами.">
+<title>Меню — «Здрасьте, гости»</title>
+<link rel="icon" type="image/png" href="разработка 1/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@500;700;900&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css?v=1">
+<link rel="stylesheet" href="menu.css?v=1">
+</head>
+<body>
+
+<a class="skip-link" href="#main">Перейти к содержанию</a>
+
+<header class="site-header" id="top">
+  <div class="wrap header-row">
+    <a class="logo" href="index.html#top" aria-label="Здрасьте, гости — на главную">
+      <img class="logo-img" src="разработка 1/logo.png" alt="Здрасьте, гости — семейное кафе">
+    </a>
+    <nav class="main-nav" id="mainNav" aria-label="Основная навигация">
+      <a href="menu.html" aria-current="page">Меню</a>
+      <a href="index.html#trust">Отзывы</a>
+      <a href="index.html#amenities">Удобства</a>
+      <a href="index.html#contact">Контакты</a>
+    </nav>
+    <div class="header-actions">
+      <a class="btn btn-ghost" href="index.html#contact">На карте</a>
+      <a class="btn btn-solid" href="tel:+79785230145" aria-label="Позвонить: +7 978 523-01-45">
+        <svg viewBox="0 0 24 24" class="icon" aria-hidden="true"><path d="M6.6 10.8c1.4 2.8 3.8 5.2 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.5.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1C10.3 21 3 13.7 3 5c0-.6.4-1 1-1h3.4c.6 0 1 .4 1 1 0 1.2.2 2.4.6 3.5.1.4 0 .8-.2 1z"/></svg>
+        <span class="btn-phone-text" aria-hidden="true">+7 978 523-01-45</span>
+      </a>
+    </div>
+    <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="mainNav" aria-label="Открыть меню">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main id="main">
+
+  <section class="menu-hero">
+    <div class="wrap">
+      <a class="menu-back" href="index.html">← На главную</a>
+      <h1 class="menu-hero-title">Меню хорошего<br><span>настроения</span></h1>
+      <p class="menu-hero-tag">Встречаем с улыбкой, готовим с любовью! Бронь и предзаказ — <a class="phone-nowrap" href="tel:+79785230145">+7&nbsp;978&nbsp;523&nbsp;01&nbsp;45</a></p>
+    </div>
+  </section>
+
+  <nav class="menu-jump" aria-label="Разделы меню">
+    <div class="wrap menu-jump-row">
+      <a href="#breakfast">Завтраки</a>
+      <a href="#pancakes">Блины</a>
+      <a href="#soups">Первые блюда</a>
+      <a href="#salads">Салаты</a>
+      <a href="#cold-snacks">Холодные закуски</a>
+      <a href="#hot-snacks">Горячие закуски</a>
+      <a href="#mains">Вторые блюда</a>
+      <a href="#pasta">Пасты</a>
+      <a href="#pizza">Пицца</a>
+      <a href="#sweet-pizza">Сладкая пицца</a>
+      <a href="#sides">Гарниры</a>
+      <a href="#kids">Детское меню</a>
+    </div>
+  </nav>
+
+  <section class="menu-body">
+    <div class="wrap">
+
+      <div class="menu-cat" id="breakfast" data-reveal>
+        <h2 class="menu-cat-title">Завтраки <small>с 9:00 до 12:00</small></h2>
+        <ul class="dishes">
+          <li class="dish">
+            <div class="dish-row"><span class="dish-name">Омлет с лососем и икрой тобико <em class="badge-new">Новинка</em></span><i></i><span class="dish-price">530 руб.</span></div>
+            <div class="dish-meta"><p>яйца кур, молоко, лосось с/с, лук зеленый, кунжут, икра тобико</p><span>200 г</span></div>
+          </li>
+          <li class="dish">
+            <div class="dish-row"><span class="dish-name">Омлет с томленой говядиной <em class="badge-new">Новинка</em></span><i></i><span class="dish-price">430 руб.</span></div>
+            <div class="dish-meta"><p>яйца кур, молоко, томленая говядина, лук зеленый</p><span>200 г</span></div>
+          </li>
+          <li class="dish">
+            <div class="dish-row"><span class="dish-name">Шакшука с говяжьим фаршем и чиабаттой</span><i></i><span class="dish-price">460 руб.</span></div>
+            <div class="dish-meta"><p>яйцо куриное, фарш говяжий, лук ялтинский, перец болгарский, помидор свежий, соус томатный, перчик халапеньо, кукуруза консерв., зелень</p><span>400 г</span></div>
+          </li>
+          <li class="dish">
+            <div class="dish-row"><span class="dish-name">Сырники с конфитюром и сметаной</span><i></i><span class="dish-price">380 руб.</span></div>
+            <div class="dish-meta"><p>3 шт, в меню до 21:30</p></div>
+          </li>
+          <li class="dish">
+            <div class="dish-row"><span class="dish-name">Американский завтрак</span><i></i><span class="dish-price">590 руб.</span></div>
+            <div class="dish-meta"><p>глазунья из 2-х яиц, бекон, чиабатта, фри, колбаски говяжьи, кукуруза консерв., огурец маринованный, кетчуп</p><span>430 г</span></div>
+          </li>
+          <li class="dish">
+            <div class="dish-row"><span class="dish-name">Сырные вафли с креветкой под сливочно-икорным соусом <em class="badge-new">Новинка</em></span><i></i><span class="dish-price">520 руб.</span></div>
+            <div class="dish-meta"><p>сырные вафли, шпинат, кабачок, яйцо кур., сливочно-икорный соус</p><span>320 г</span></div>
+          </li>
+          <li class="dish">
+            <div class="dish-row"><span class="dish-name">Картофельные вафли со слабосоленым лососем и яйцом пашот</span><i></i><span class="dish-price">480 руб.</span></div>
+            <div class="dish-meta"><p>картофельные вафли, с/с лосось, огурец свежий, сливочно-сырный соус, яйцо</p><span>320 г</span></div>
+          </li>
+          <li class="dish">
+            <div class="dish-row"><span class="dish-name">Панкейки с медом и грецкими орехами <em class="badge-new">Новинка</em></span><i></i><span class="dish-price">380 руб.</span></div>
+            <div class="dish-meta"><p></p><span>190 г</span></div>
+          </li>
+        </ul>
+      </div>
+
+      <div class="menu-cat" id="pancakes" data-reveal>
+        <h2 class="menu-cat-title">Блины <small>до 21:30</small></h2>
+        <ul class="dishes">
+          <li class="dish">
+            <div class="dish-row"><span class="dish-name">С апельсином и мороженым (3 шт.)</span><i></i><span class="dish-price">420 руб.</span></div>
+            <div class="dish-meta"><p></p><span>320 г</span></div>
+          </li>
+          <li class="dish">
+            <div class="dish-row"><span class="dish-name">С курицей и грибами (3 шт.)</span><i></i><span class="dish-price">420 руб.</span></div>
+            <div class="dish-meta"><p></p><span>300 г</span></div>
+          </li>
+          <li class="dish">
+            <div class="dish-row"><span class="dish-name">С лососем и шпинатом (3 шт.)</span><i></i><span class="dish-price">530 руб.</span></div>
+            <div class="dish-meta"><p></p><span>310 г</span></div>
+          </li>
+          <li class="dish">
+            <div class="dish-row"><span class="dish-name">С карамелизированным яблоком (3 шт.)</span><i></i><span class="dish-price">380 руб.</span></div>
+            <div class="dish-meta"><p></p><span>260 г</span></div>
+          </li>
+          <li class="dish">
+            <div class="dish-row"><span class="dish-name">С бананом, нутеллой и шариком мороженого (2 шт.)</span><i></i><span class="dish-price">430 руб.</span></div>
+            <div class="dish-meta"><p></p><span>270 г</span></div>
+          </li>
+          <li class="dish">
+            <div class="dish-row"><span class="dish-name">С вишней и творожным сыром (3 шт.)</span><i></i><span class="dish-price">480 руб.</span></div>
+            <div class="dish-meta"><p></p><span>350 г</span></div>
+          </li>
+          <li class="dish">
+            <div class="dish-row"><span class="dish-name">Со слабосоленым лососем и творожным сыром (2 шт.)</span><i></i><span class="dish-price">590 руб.</span></div>
+            <div class="dish-meta"><p></p><span>260 г</span></div>
+          </li>
+          <li class="dish">
+            <div class="dish-row"><span class="dish-name">Со сметаной и сгущенкой (3 шт.)</span><i></i><span class="dish-price">280 руб.</span></div>
+            <div class="dish-meta"><p></p><span>260 г</span></div>
+          </li>
+        </ul>
+        <p class="menu-allergy">Дорогие гости, убедительная просьба при наличии какой-либо пищевой аллергии сообщить официанту. Заранее спасибо!</p>
+      </div>
+
+      <div class="menu-cat" id="soups" data-reveal>
+        <h2 class="menu-cat-title">Первые блюда</h2>
+        <ul class="dishes">
+          <li class="dish">
+            <div class="dish-row"><span class="dish-name">Борщик, как у мамы</span><i></i><span class="dish-price">450 руб.</span></div>
+            <div class="dish-meta"><p>подается с салом, бородинским хлебом, сметаной и зеленым луком</p><span>350 г</span></div>
+          </li>
+          <li class="dish">
+            <div class="dish-row"><span class="dish-name">Солянка</span><i></i><span class="dish-price">490 руб.</span></div>
+            <div class="dish-meta"><p>подается с бородинским хлебом и сметаной</p><span>370/30 г</span></div>
+          </li>
+          <li class="dish">
+            <div class="dish-row"><span class="dish-name">Куриный супчик</span><i></i><span class="dish-price">320 руб.</span></div>
+            <div class="dish-meta"><p>с лапшой и перепелиным яйцом</p><span>350 г</span></div>
+          </li>
+          <li class="dish">
+            <div class="dish-row"><span class="dish-name">Авторский «Том-ям» с фунчозой</span><i></i><span class="dish-price">590 руб.</span></div>
+            <div class="dish-meta"><p></p><span>370 г</span></div>
+          </li>
+          <li class="dish">
+            <div class="dish-row"><span class="dish-name">Сырный суп с беконом</span><i></i><span class="dish-price">420 руб.</span></div>
+            <div class="dish-meta"><p></p><span>350 г</span></div>
+          </li>
+          <li class="dish">
+            <div class="dish-row"><span class="dish-name">Рамен с говядиной</span><i></i><span class="dish-price">490 руб.</span></div>
+            <div class="dish-meta"><p></p><span>350 г</span></div>
+          </li>
+        </ul>
+      </div>
+
+      <div class="menu-cat" id="salads" data-reveal>
+        <h2 class="menu-cat-title">Салаты</h2>
+        <ul class="dishes">
+          <li class="dish">
+            <div class="dish-row"><span class="dish-name">Овощной салат аля греческий <em class="badge-new">Новинка</em></span><i></i><span class="dish-price">490 руб.</span></div>
+            <div class="dish-meta"><p>микс салата, помидоры черри, огурец свежий, двойной сыр, перец болгарский, редис, маслины, соус лимонный</p><span>200 г</span></div>
+          </li>
+          <li class="dish">
+            <div class="dish-row"><span class="dish-name">Салат с тунцом <em class="badge-new">Новинка</em></span><i></i><span class="dish-price">620 руб.</span></div>
+            <div class="dish-meta"><p>микс салата, тунец консерв., помидор черри, лук ялтинский, картофель бэби, маслины, огурец свежий, редис, эспума, соус медово-горчичный</p><span>270 г</span></div>
+          </li>
+          <li class="dish">
+            <div class="dish-row"><span class="dish-name">Салат с говяжьим языком <em class="badge-new">Новинка</em></span><i></i><span class="dish-price">670 руб.</span></div>
+            <div class="dish-meta"><p>микс салата, огурец свежий, помидор черри, перец болгарский, язык говяжий, ореховый соус, соевый соус, кунжут</p><span>215 г</span></div>
+          </li>
+          <li class="dish">
+            <div class="dish-row"><span class="dish-name">Цезарь с лососем</span><i></i><span class="dish-price">730 руб.</span></div>
+            <div class="dish-meta"><p>лосось с/с, айсберг, микс салата, помидор черри, пармезан, перепелиное яйцо, соус «цезарь», эспума, крипсы</p><span>210 г</span></div>
+          </li>
+          <li class="dish">
+            <div class="dish-row"><span class="dish-name">Цезарь с креветкой</span><i></i><span class="dish-price">710 руб.</span></div>
+            <div class="dish-meta"><p>креветка тигровая, айсберг, микс салата, помидор черри, пармезан, соус «цезарь», эспума, крипсы</p><span>240 г</span></div>
+          </li>
+          <li class="dish">
+            <div class="dish-row"><span class="dish-name">Цезарь с курицей и беконом</span><i></i><span class="dish-price">590 руб.</span></div>
+            <div class="dish-meta"><p>филе куриное, бекон, айсберг, микс салата, помидор черри, перепелиное яйцо, пармезан, соус «цезарь», эспума, крипсы</p><span>240 г</span></div>
+          </li>
+          <li class="dish">
+            <div class="dish-row"><span class="dish-name">С томленой телятиной и жареными овощами</span><i></i><span class="dish-price">620 руб.</span></div>
+            <div class="dish-meta"><p>микс салата, томленая телятина, баклажан, кабачок, перец болгарский, картофель бэби, помидор черри, соус бальзамик</p><span>230 г</span></div>
+          </li>
+          <li class="dish">
+            <div class="dish-row"><span class="dish-name">Салат «По-деревенски»</span><i></i><span class="dish-price">570 руб.</span></div>
+            <div class="dish-meta"><p>охотничьи колбаски, картофель бэби фри, микс салата, помидор черри, яйцо куриное, перепелиное, лук ялтинский, огурцы маринованные, соус медово-горчичный</p><span>350 г</span></div>
+          </li>
+          <li class="dish">
+            <div class="dish-row"><span class="dish-name">С креветкой, хрустящим баклажаном и двойным сыром</span><i></i><span class="dish-price">720 руб.</span></div>
+            <div class="dish-meta"><p>микс салата, помидор черри, хрустящий баклажан, тигровые креветки, двойной сыр, соус медово-горчичный, кунжут</p><span>350 г</span></div>
+          </li>
+          <li class="dish">
+            <div class="dish-row"><span class="dish-name">Салат из морепродуктов</span><i></i><span class="dish-price">750 руб.</span></div>
+            <div class="dish-meta"><p>кальмары, мидии, креветки, свежий огурец, помидор черри, лук ялтинский, соус сливочно-сырный, микс салата</p><span>270 г</span></div>
+          </li>
+        </ul>
+      </div>
+
+      <div class="menu-cat" id="cold-snacks" data-reveal>
+        <h2 class="menu-cat-title">Холодные закуски</h2>
+        <ul class="dishes">
+          <li class="dish">
+            <div class="dish-row"><span class="dish-name">Брускетта с телятиной</span><i></i><span class="dish-price">390 руб.</span></div>
+            <div class="dish-meta"><p>чиабатта, томленая телятина, микс салата, соус медово-горчичный, вяленые томаты</p><span>1 шт</span></div>
+          </li>
+          <li class="dish">
+            <div class="dish-row"><span class="dish-name">Брускетта с лососем и двойным сыром</span><i></i><span class="dish-price">390 руб.</span></div>
+            <div class="dish-meta"><p>чиабатта, лосось с/с, двойной сыр, помидор черри</p><span>1 шт</span></div>
+          </li>
+          <li class="dish">
+            <div class="dish-row"><span class="dish-name">Брускетта с креветками и помидором конкассе</span><i></i><span class="dish-price">390 руб.</span></div>
+            <div class="dish-meta"><p>чиабатта, креветка тигровая, томаты конкассе, микс салата, двойной сыр</p><span>1 шт</span></div>
+          </li>
+          <li class="dish">
+            <div class="dish-row"><span class="dish-name">Мусс из копченого лосося с тартаром из огурца <em class="badge-new">Новинка</em></span><i></i><span class="dish-price">650 руб.</span></div>
+            <div class="dish-meta"><p>копченый лосось, сливки, рикотта, свежий огурец, чиабатта</p><span>230 г</span></div>
+          </li>
+          <li class="dish">
+            <div class="dish-row"><span class="dish-name">Сырный сет</span><i></i><span class="dish-price">750 руб.</span></div>
+            <div class="dish-meta"><p>дорблю, чеддер, моцарелла, пармезан, мед, грецкие орехи</p><span>260 г</span></div>
+          </li>
+        </ul>
+      </div>
+
+      <div class="menu-cat" id="hot-snacks" data-reveal>
+        <h2 class="menu-cat-title">Горячие закуски</h2>
+        <ul class="dishes">
+          <li class="dish">
+            <div class="dish-row"><span class="dish-name">Чиабатта с курицей и беконом</span><i></i><span class="dish-price">460 руб.</span></div>
+            <div class="dish-meta"><p>чиабатта, филе куриное, бекон, айсберг, огурец маринованный, помидор свежий, лук ялтинский, соус «цезарь»</p><span>400 г</span></div>
+          </li>
+          <li class="dish">
+            <div class="dish-row"><span class="dish-name">Чиабатта со слабосол. лососем и двойным сыром</span><i></i><span class="dish-price">580 руб.</span></div>
+            <div class="dish-meta"><p>чиабатта, лосось с/с, двойной сыр, микс салата, огурец свежий, помидор свежий</p><span>400 г</span></div>
+          </li>
+          <li class="dish">
+            <div class="dish-row"><span class="dish-name">Чиабатта с говядиной</span><i></i><span class="dish-price">490 руб.</span></div>
+            <div class="dish-meta"><p>чиабатта, фарш говяжий, огурец маринованный, микс салата, лук ялтинский, помидор свежий, сыр чеддер, соус медово-горчичный</p><span>400 г</span></div>
+          </li>
+          <li class="dish">
+            <div class="dish-row"><span class="dish-name">Сырный пирог с беконом <em class="badge-new">Новинка</em></span><i></i><span class="dish-price">590 руб.</span></div>
+            <div class="dish-meta"><p></p><span>530 г</span></div>
+          </li>
+          <li class="dish">
+            <div class="dish-row"><span class="dish-name">Хрустящие шампиньоны в соусе сладкий чили <em class="badge-new">Новинка</em></span><i></i><span class="dish-price">490 руб.</span></div>
+            <div class="dish-meta"><p>подается с салатиком из помидоров черри</p><span>270 г</span></div>
+          </li>
+          <li class="dish">
+            <div class="dish-row"><span class="dish-name">Тосты со слабосоленым лососем</span><i></i><span class="dish-price">560 руб.</span></div>
+            <div class="dish-meta"><p>хлеб тостерный, лосось с/с, домашний майонез, икра тобико, соус унаги, кунжут</p><span>200 г</span></div>
+          </li>
+          <li class="dish">
+            <div class="dish-row"><span class="dish-name">Куриные крылья в медово-горчичном соусе</span><i></i><span class="dish-price">620 руб.</span></div>
+            <div class="dish-meta"><p>подаются с соусами «цезарь» и «BBQ»</p><span>450 г</span></div>
+          </li>
+          <li class="dish">
+            <div class="dish-row"><span class="dish-name">Соте из морепродуктов с овощами в сливочном соусе <em class="badge-new">Новинка</em></span><i></i><span class="dish-price">910 руб.</span></div>
+            <div class="dish-meta"><p>мидии в створке, кальмары, креветка, сливки, перец болгарский, кабачок, картофель бэби, чиабатта</p><span>430 г</span></div>
+          </li>
+          <li class="dish">
+            <div class="dish-row"><span class="dish-name">Моцарелла фри с ягодным конфитюром</span><i></i><span class="dish-price">370 руб.</span></div>
+            <div class="dish-meta"><p></p><span>150/40 г</span></div>
+          </li>
+        </ul>
+      </div>
+
+      <div class="menu-cat" id="mains" data-reveal>
+        <h2 class="menu-cat-title">Вторые блюда</h2>
+        <ul class="dishes">
+          <li class="dish">
+            <div class="dish-row"><span class="dish-name">Стейк из свиного ошейка с картофелем «По-деревенски»</span><i></i><span class="dish-price">830 руб.</span></div>
+            <div class="dish-meta"><p>подается с соусом «BBQ»</p><span>450/40 г</span></div>
+          </li>
+          <li class="dish">
+            <div class="dish-row"><span class="dish-name">Томленые свиные ребра BBQ</span><i></i><span class="dish-price">740 руб.</span></div>
+            <div class="dish-meta"><p>подаются с перчиком халапеньо, ялтинским луком и маринованным огурчиком</p><span>400/40 г</span></div>
+          </li>
+          <li class="dish">
+            <div class="dish-row"><span class="dish-name">Свиные медальоны в беконе</span><i></i><span class="dish-price">730 руб.</span></div>
+            <div class="dish-meta"><p>подается с грибным соусом и картофельными дольками</p><span>450/40 г</span></div>
+          </li>
+          <li class="dish">
+            <div class="dish-row"><span class="dish-name">Куриные рулетики с беконом</span><i></i><span class="dish-price">580 руб.</span></div>
+            <div class="dish-meta"><p>подается с запеченными томатами и соусом «BBQ»</p><span>230 г</span></div>
+          </li>
+          <li class="dish">
+            <div class="dish-row"><span class="dish-name">Жареный картофель с грибами и яйцом пашот <em class="badge-new">Новинка</em></span><i></i><span class="dish-price">420 руб.</span></div>
+            <div class="dish-meta"><p>картофель, шампиньоны, яйцо, помидоры конкассе и сметано-чесночный соус</p><span>410 г</span></div>
+          </li>
+          <li class="dish">
+            <div class="dish-row"><span class="dish-name">Баклажан по-сицилийски</span><i></i><span class="dish-price">690 руб.</span></div>
+            <div class="dish-meta"><p>баклажан, помидор конкассе, лук репчатый, чеснок, фарш говяжий, сыр моцарелла, соус «песто»</p><span>310 г</span></div>
+          </li>
+          <li class="dish">
+            <div class="dish-row"><span class="dish-name">Куриное филе в остро-сладком соусе с арахисом <em class="badge-new">Новинка</em></span><i></i><span class="dish-price">650 руб.</span></div>
+            <div class="dish-meta"><p>подается с салатиком из овощей</p><span>370 г</span></div>
+          </li>
+          <li class="dish">
+            <div class="dish-row"><span class="dish-name">Ризотто с морепродуктами <em class="badge-new">Новинка</em></span><i></i><span class="dish-price">650 руб.</span></div>
+            <div class="dish-meta"><p>рис арборио, лук репчатый, сливки, чеснок, мидии, кальмар, креветка, пармезан</p><span>300 г</span></div>
+          </li>
+          <li class="dish">
+            <div class="dish-row"><span class="dish-name">Венский шницель с картофельным пюре и грибным жульеном</span><i></i><span class="dish-price">680 руб.</span></div>
+            <div class="dish-meta"><p>куриное филе, сухари «Панко», картофельное пюре, шампиньоны, сливки, лук репчатый</p><span>420 г</span></div>
+          </li>
+          <li class="dish">
+            <div class="dish-row"><span class="dish-name">Куриная грудка, фаршированная адыгейским сыром и помидорами</span><i></i><span class="dish-price">680 руб.</span></div>
+            <div class="dish-meta"><p>подается с кускусом и сливочно-сырным соусом</p><span>440/50 г</span></div>
+          </li>
+          <li class="dish">
+            <div class="dish-row"><span class="dish-name">Запеченный лосось на подушке из стручковой фасоли</span><i></i><span class="dish-price">1300 руб.</span></div>
+            <div class="dish-meta"><p>под сливочно-сырным соусом</p><span>300 г</span></div>
+          </li>
+        </ul>
+      </div>
+
+      <div class="menu-cat" id="pasta" data-reveal>
+        <h2 class="menu-cat-title">Пасты</h2>
+        <ul class="dishes">
+          <li class="dish">
+            <div class="dish-row"><span class="dish-name">Спагетти «Болоньезе»</span><i></i><span class="dish-price">570 руб.</span></div>
+            <div class="dish-meta"><p>говяжий фарш, соус томатный, перец болгарский, помидор черри, лук репчатый, чеснок</p><span>320 г</span></div>
+          </li>
+          <li class="dish">
+            <div class="dish-row"><span class="dish-name">Спагетти «Карбонара»</span><i></i><span class="dish-price">540 руб.</span></div>
+            <div class="dish-meta"><p>сливочный соус, бекон, лук репчатый, чеснок, яичный желток, пармезан</p><span>280 г</span></div>
+          </li>
+          <li class="dish">
+            <div class="dish-row"><span class="dish-name">Спагетти с морепродуктами</span><i></i><span class="dish-price">680 руб.</span></div>
+            <div class="dish-meta"><p>сливочный соус, кальмар, мидии, креветка, укроп, лук репчатый, чеснок, пармезан</p><span>300 г</span></div>
+          </li>
+          <li class="dish">
+            <div class="dish-row"><span class="dish-name">Фарфалле с курицей и грибами</span><i></i><span class="dish-price">520 руб.</span></div>
+            <div class="dish-meta"><p>куриное филе, шампиньоны, пармезан, сливочный соус</p><span>320 г</span></div>
+          </li>
+          <li class="dish">
+            <div class="dish-row"><span class="dish-name">Ризони с говяжьим языком <em class="badge-new">Новинка</em></span><i></i><span class="dish-price">650 руб.</span></div>
+            <div class="dish-meta"><p>говяжий язык, лук репчатый, чеснок, сливочный соус, пармезан, помидор конкассе</p><span>310 г</span></div>
+          </li>
+        </ul>
+      </div>
+
+      <div class="menu-cat" id="pizza" data-reveal>
+        <h2 class="menu-cat-title">Пицца <small>30 см</small></h2>
+        <ul class="dishes">
+          <li class="dish">
+            <div class="dish-row"><span class="dish-name">Пицца «Диабло»</span><i></i><span class="dish-price">545 руб.</span></div>
+            <div class="dish-meta"><p>пепперони, перчик халапеньо, моцарелла, томатный соус</p></div>
+          </li>
+          <li class="dish">
+            <div class="dish-row"><span class="dish-name">Пицца «BBQ»</span><i></i><span class="dish-price">645 руб.</span></div>
+            <div class="dish-meta"><p>куриное филе, охотничьи колбаски, шампиньоны, кукуруза, моцарелла, укроп, соус «BBQ»</p></div>
+          </li>
+          <li class="dish">
+            <div class="dish-row"><span class="dish-name">Пицца «4 сыра»</span><i></i><span class="dish-price">720 руб.</span></div>
+            <div class="dish-meta"><p>моцарелла, сыр «бри», сыр «дор блю», сыр «пармезан», сливочный соус</p></div>
+          </li>
+          <li class="dish">
+            <div class="dish-row"><span class="dish-name">Пицца «Гавайская»</span><i></i><span class="dish-price">645 руб.</span></div>
+            <div class="dish-meta"><p>куриное филе, маслины, ананас консерв., моцарелла, томатный соус</p></div>
+          </li>
+          <li class="dish">
+            <div class="dish-row"><span class="dish-name">Пицца «Мясная» <em class="badge-new">Новинка</em></span><i></i><span class="dish-price">690 руб.</span></div>
+            <div class="dish-meta"><p>мякоть говядины, свиная вырезка, куриное филе, лук ялтинский маринованный, моцарелла, соус «BBQ», томатный соус</p></div>
+          </li>
+          <li class="dish">
+            <div class="dish-row"><span class="dish-name">Пицца «Чизбургер»</span><i></i><span class="dish-price">680 руб.</span></div>
+            <div class="dish-meta"><p>фарш говяжий, лук ялтинский, огурец маринованный, помидор черри, сыр чеддер, соус «бургер», томатный соус</p></div>
+          </li>
+          <li class="dish">
+            <div class="dish-row"><span class="dish-name">Пицца «Фоджа»</span><i></i><span class="dish-price">680 руб.</span></div>
+            <div class="dish-meta"><p>соус «цезарь», моцарелла, бекон, пепперони, помидор черри, маслины, соус «песто»</p></div>
+          </li>
+          <li class="dish">
+            <div class="dish-row"><span class="dish-name">Пицца «Карбонара»</span><i></i><span class="dish-price">645 руб.</span></div>
+            <div class="dish-meta"><p>бекон, ветчина, сливочный соус, шампиньоны, пармезан, моцарелла</p></div>
+          </li>
+          <li class="dish">
+            <div class="dish-row"><span class="dish-name">Пицца «Кассия»</span><i></i><span class="dish-price">645 руб.</span></div>
+            <div class="dish-meta"><p>охотничьи колбаски, шампиньоны, огурцы маринованные, лук ялтинский маринованный, моцарелла, томатный соус</p></div>
+          </li>
+          <li class="dish">
+            <div class="dish-row"><span class="dish-name">Пицца «Колорадо»</span><i></i><span class="dish-price">645 руб.</span></div>
+            <div class="dish-meta"><p>куриное филе, шампиньоны, моцарелла, сливочный соус</p></div>
+          </li>
+          <li class="dish">
+            <div class="dish-row"><span class="dish-name">Пицца «Маргарита»</span><i></i><span class="dish-price">450 руб.</span></div>
+            <div class="dish-meta"><p>помидоры черри, моцарелла, томатный соус</p></div>
+          </li>
+          <li class="dish">
+            <div class="dish-row"><span class="dish-name">Пицца «Морская»</span><i></i><span class="dish-price">790 руб.</span></div>
+            <div class="dish-meta"><p>мидии, кальмары, креветка, помидор черри, моцарелла, укроп, томатный соус</p></div>
+          </li>
+          <li class="dish">
+            <div class="dish-row"><span class="dish-name">Пицца «Норвежская»</span><i></i><span class="dish-price">895 руб.</span></div>
+            <div class="dish-meta"><p>лосось с/с, сыр «дор блю», моцарелла, укроп, сливочный соус</p></div>
+          </li>
+          <li class="dish">
+            <div class="dish-row"><span class="dish-name">Пицца «Римская»</span><i></i><span class="dish-price">645 руб.</span></div>
+            <div class="dish-meta"><p>бекон, куриное филе, помидоры черри, кукуруза консерв., укроп, томатный соус</p></div>
+          </li>
+          <li class="dish">
+            <div class="dish-row"><span class="dish-name">Пицца «Сицилия»</span><i></i><span class="dish-price">645 руб.</span></div>
+            <div class="dish-meta"><p>ветчина, куриное филе, перец болгарский, маслины, томатный соус, соус «цезарь»</p></div>
+          </li>
+          <li class="dish">
+            <div class="dish-row"><span class="dish-name">Пицца «Цезарь»</span><i></i><span class="dish-price">660 руб.</span></div>
+            <div class="dish-meta"><p>куриное филе, бекон, айсберг, пармезан, соус «цезарь», моцарелла, томатный соус</p></div>
+          </li>
+        </ul>
+      </div>
+
+      <div class="menu-cat" id="sweet-pizza" data-reveal>
+        <h2 class="menu-cat-title">Пицца сладкая</h2>
+        <ul class="dishes">
+          <li class="dish">
+            <div class="dish-row"><span class="dish-name">Пицца с вишней</span><i></i><span class="dish-price">645 руб.</span></div>
+            <div class="dish-meta"><p>вишня с/м, моцарелла, ананас консерв., сгущенное молоко</p></div>
+          </li>
+          <li class="dish">
+            <div class="dish-row"><span class="dish-name">Пицца с яблоком</span><i></i><span class="dish-price">645 руб.</span></div>
+            <div class="dish-meta"><p>яблоко, нутелла, моцарелла, грецкий орех, сливочное мороженое</p></div>
+          </li>
+          <li class="dish">
+            <div class="dish-row"><span class="dish-name">Пицца с бананом</span><i></i><span class="dish-price">645 руб.</span></div>
+            <div class="dish-meta"><p>банан, нутелла, моцарелла, сливочное мороженое, маршмеллоу</p></div>
+          </li>
+        </ul>
+      </div>
+
+      <div class="menu-cat" id="sides" data-reveal>
+        <h2 class="menu-cat-title">Гарниры</h2>
+        <ul class="dishes">
+          <li class="dish">
+            <div class="dish-row"><span class="dish-name">Картофель фри</span><i></i><span class="dish-price">230 руб.</span></div>
+            <div class="dish-meta"><p>подается с кетчупом</p><span>120/40 г</span></div>
+          </li>
+          <li class="dish">
+            <div class="dish-row"><span class="dish-name">Кус-кус</span><i></i><span class="dish-price">180 руб.</span></div>
+            <div class="dish-meta"><p></p><span>200 г</span></div>
+          </li>
+          <li class="dish">
+            <div class="dish-row"><span class="dish-name">Картофельные дольки</span><i></i><span class="dish-price">260 руб.</span></div>
+            <div class="dish-meta"><p>подается с чесночным соусом</p><span>120/40 г</span></div>
+          </li>
+          <li class="dish">
+            <div class="dish-row"><span class="dish-name">Овощи-гриль</span><i></i><span class="dish-price">440 руб.</span></div>
+            <div class="dish-meta"><p>подается с соусом песто</p><span>250/40 г</span></div>
+          </li>
+        </ul>
+      </div>
+
+      <div class="menu-cat" id="kids" data-reveal>
+        <h2 class="menu-cat-title">Меню для маленьких гостей</h2>
+        <ul class="dishes">
+          <li class="dish">
+            <div class="dish-row"><span class="dish-name">Бантики с курицей в сливочном соусе</span><i></i><span class="dish-price">290 руб.</span></div>
+            <div class="dish-meta"><p></p><span>200 г</span></div>
+          </li>
+          <li class="dish">
+            <div class="dish-row"><span class="dish-name">Бургер с курочкой</span><i></i><span class="dish-price">290 руб.</span></div>
+            <div class="dish-meta"><p></p><span>200 г</span></div>
+          </li>
+          <li class="dish">
+            <div class="dish-row"><span class="dish-name">Спагетти</span><i></i><span class="dish-price">150 руб.</span></div>
+            <div class="dish-meta"><p></p><span>100 г</span></div>
+          </li>
+          <li class="dish">
+            <div class="dish-row"><span class="dish-name">Бантики</span><i></i><span class="dish-price">150 руб.</span></div>
+            <div class="dish-meta"><p></p><span>100 г</span></div>
+          </li>
+          <li class="dish">
+            <div class="dish-row"><span class="dish-name">Спагетти с сыром</span><i></i><span class="dish-price">230 руб.</span></div>
+            <div class="dish-meta"><p></p><span>130 г</span></div>
+          </li>
+          <li class="dish">
+            <div class="dish-row"><span class="dish-name">Бантики с сыром</span><i></i><span class="dish-price">230 руб.</span></div>
+            <div class="dish-meta"><p></p><span>130 г</span></div>
+          </li>
+          <li class="dish">
+            <div class="dish-row"><span class="dish-name">Картофельное пюре</span><i></i><span class="dish-price">210 руб.</span></div>
+            <div class="dish-meta"><p></p><span>150 г</span></div>
+          </li>
+          <li class="dish">
+            <div class="dish-row"><span class="dish-name">Картофельный алфавит фри</span><i></i><span class="dish-price">280 руб.</span></div>
+            <div class="dish-meta"><p>подается с кетчупом</p><span>120 г</span></div>
+          </li>
+          <li class="dish">
+            <div class="dish-row"><span class="dish-name">Куриная котлетка</span><i></i><span class="dish-price">150 руб.</span></div>
+            <div class="dish-meta"><p></p><span>70 г</span></div>
+          </li>
+          <li class="dish">
+            <div class="dish-row"><span class="dish-name">Котлетка из трески</span><i></i><span class="dish-price">160 руб.</span></div>
+            <div class="dish-meta"><p></p><span>90 г</span></div>
+          </li>
+          <li class="dish">
+            <div class="dish-row"><span class="dish-name">Венская сосиска</span><i></i><span class="dish-price">150 руб.</span></div>
+            <div class="dish-meta"><p></p><span>70 г</span></div>
+          </li>
+          <li class="dish">
+            <div class="dish-row"><span class="dish-name">Наггетсы</span><i></i><span class="dish-price">320 руб.</span></div>
+            <div class="dish-meta"><p>подаются с кетчупом</p><span>160/40 г</span></div>
+          </li>
+        </ul>
+      </div>
+
+      <p class="menu-note">Полное меню, состав и вес блюд могут уточняться — актуальную информацию сообщит официант в зале. Бронь и предзаказ по телефону <a href="tel:+79785230145">+7 978 523-01-45</a>.</p>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap footer-wrap">
+    <div class="footer-wordmark">Здрасьте,<br>гости</div>
+    <div class="footer-cols">
+      <div>
+        <h3>Контакты</h3>
+        <p><a href="tel:+79785230145">+7 978 523-01-45</a></p>
+        <p>ул. Калинина, 11, Джанкой,<br>1 этаж, Республика Крым</p>
+      </div>
+      <div>
+        <h3>Часы</h3>
+        <p>Ежедневно 8:00–21:00</p>
+        <p>Завтраки: 9:00–12:00</p>
+      </div>
+      <div>
+        <h3>На карте</h3>
+        <p><a href="https://yandex.ru/maps/org/zdraste_gosti/145250516033/" target="_blank" rel="noopener">Яндекс.Карты →</a></p>
+      </div>
+    </div>
+  </div>
+  <div class="wrap footer-bottom">
+    <span>© 2026 «Здрасьте, гости»</span>
+    <span>Хорошее место 2026</span>
+  </div>
+</footer>
+
+<script src="script.js?v=1"></script>
+<script src="menu.js?v=1"></script>
+</body>
+</html>
