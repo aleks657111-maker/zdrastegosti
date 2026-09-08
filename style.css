@@ -201,7 +201,7 @@ h1, h2, h3, h4 {
   position: relative;
   background:
     radial-gradient(120% 100% at 18% -10%, rgba(47,107,69,0.88) 0%, rgba(47,107,69,0.88) 38%, rgba(61,42,28,0.92) 75%, rgba(28,19,13,0.96) 100%),
-    url("разработка 1/hero-cafe.png");
+    url("assets/hero-cafe.png");
   background-size: cover, cover;
   background-position: center, center;
   background-repeat: no-repeat, no-repeat;

@@ -1,0 +1,35 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "cream-palette",
+        "value": "*",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-09-06T19:48:10.489Z",
+        "reason": "Направление зафиксировано брифом пользователя (референс Fresh Meat Market): кремовый используется как бумажный/стикерный тон в контрасте с доминирующим чёрно-красным, а не как безопасный тёплый дефолт."
+      },
+      {
+        "rule": "clipped-overflow-container",
+        "value": "*",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-09-06T19:48:15.849Z",
+        "reason": "Абсолютно позиционированный .hero-grain — декоративная текстура зерна, намеренно обрезана границами hero-секции; это не тултип/меню, которому нужно выходить за пределы контейнера."
+      },
+      {
+        "rule": "cramped-padding",
+        "value": "*",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-09-06T19:48:23.143Z",
+        "reason": "Секции trust/amenities получают реальный горизонтальный отступ от .wrap (width:92vw, margin auto) — детектор не учитывает margin-based inset обёртки; подтверждено визуально на скриншотах."
+      }
+    ]
+  }
+}
