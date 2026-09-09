@@ -17,6 +17,7 @@
 .menu-back:hover { opacity: 1; }
 
 .menu-hero-title {
+  font-family: "Space Grotesk", "Unbounded", sans-serif;
   font-size: clamp(2.4rem, 6vw, 4.2rem);
   line-height: 1.05;
   text-transform: uppercase;
@@ -87,6 +88,7 @@
 .menu-cat:first-child { padding-top: 0; }
 
 .menu-cat-title {
+  font-family: "Space Grotesk", "Unbounded", sans-serif;
   display: inline-flex;
   align-items: baseline;
   gap: 10px;
@@ -127,7 +129,7 @@
 }
 
 .dish-name {
-  font-family: "Unbounded", sans-serif;
+  font-family: "Space Grotesk", "Unbounded", sans-serif;
   font-weight: 700;
   font-size: 1.05rem;
   line-height: 1.3;
@@ -141,7 +143,7 @@
 }
 
 .dish-price {
-  font-family: "Unbounded", sans-serif;
+  font-family: "Space Grotesk", "Unbounded", sans-serif;
   font-weight: 700;
   font-size: 1.05rem;
   color: var(--red);
@@ -193,6 +195,10 @@
   border-radius: var(--radius-m);
   font-size: 0.9rem;
   text-align: center;
+}
+.menu-allergy-top {
+  margin-top: 20px;
+  max-width: 60ch;
 }
 
 .menu-note {
